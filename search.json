@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "To install:"
+  },
+  {
+    "objectID": "index.html#first-example---say_hello-function",
+    "href": "index.html#first-example---say_hello-function",
+    "title": "nbdev-hello-world",
+    "section": "First Example - say_hello function",
+    "text": "First Example - say_hello function\nThe first example implemented the ‘say_hello’ function in a notebook that does ‘something’. It also did some ‘unit tests’ on the function in a few different ways to show an ‘automated’ test.\n\nsay_hello(\"Steve!\")\n\n'Hello Steve!!'"
+  },
+  {
+    "objectID": "steve_nbdev_train.html",
+    "href": "steve_nbdev_train.html",
+    "title": "Steve’s nbdev first lesson training",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\")==\"Hello Hamel!\"\n\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\nfrom IPython.display import display,SVG\n\n\ndisplay(SVG('<svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\"/></svg>'))\n\n\n\n\n\nsource\n\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  }
+]
