@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://savagesmc.github.io',
                 'git_url': 'https://github.com/savagesmc/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.steve_nbdev_train': { 'nbdev_hello_world.steve_nbdev_train.foo': ( 'steve_nbdev_train.html#foo',
+                                                                                                  'nbdev_hello_world/steve_nbdev_train.py'),
+                                                     'nbdev_hello_world.steve_nbdev_train.say_hello': ( 'steve_nbdev_train.html#say_hello',
+                                                                                                        'nbdev_hello_world/steve_nbdev_train.py')}}}
