@@ -16,7 +16,7 @@ that does ‘something’. It also did some ‘unit tests’ on the function in
 a few different ways to show an ‘automated’ test.
 
 ``` python
-say_hello("Isaac")
+say_hello("Steve!")
 ```
 
-    'Hello Isaac!'
+    'Hello Steve!!'
